@@ -2,10 +2,11 @@
 name = "ianaio-timers"
 description = "IanaIO crate for working with JavaScript timers"
 version = "0.1.0"
-authors = ["IanaIO Rust and WebAssembly Working Group"]
+authors = ["Jaroslaw Cichon <dev.iana.io> IanaIO Rust and WebAssembly Working Group"]
 edition = "2021"
-license = "MIT OR Apache-2.0"
+license-file = "LICENSE.txt"
 readme = "README.md"
+documentation = "https://docs.iana.io/ianaio-timers"
 repository = "https://github.com/ianaio/ianaio-timers"
 homepage = "https://www.iana.io/rustwasm/"
 categories = ["api-bindings", "asynchronous", "wasm"]
