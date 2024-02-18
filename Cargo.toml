@@ -1,0 +1,32 @@
+[package]
+name = "ianaio-timers"
+description = "IanaIO crate for working with JavaScript timers"
+version = "0.1.0"
+authors = ["IanaIO Rust and WebAssembly Working Group"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/ianaio/ianaio-timers"
+homepage = "https://www.iana.io/rustwasm/"
+categories = ["api-bindings", "asynchronous", "wasm"]
+rust-version = "rustc 1.78.0-nightly"
+
+[package.metadata.docs.rs]
+features = ["futures"]
+
+[dependencies]
+wasm-bindgen = "0.2.91"
+js-sys = "0.3.68"
+futures-core = { version = "0.3.30", optional = true }
+futures-channel = { version = "0.3.30", optional = true }
+
+[features]
+default = []
+futures = ["futures-core", "futures-channel"]
+
+
+[dev-dependencies]
+wasm-bindgen-futures = "0.4.41"
+wasm-bindgen-test = "0.3.41"
+futures-util = "0.3.30"
+
