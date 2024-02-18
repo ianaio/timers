@@ -10,7 +10,7 @@ documentation = "https://docs.iana.io/ianaio-timers"
 repository = "https://github.com/ianaio/ianaio-timers"
 homepage = "https://www.iana.io/rustwasm/"
 categories = ["api-bindings", "asynchronous", "wasm"]
-rust-version = "rustc 1.78.0-nightly"
+rust-version = "1.78.0"
 
 [package.metadata.docs.rs]
 features = ["futures"]
