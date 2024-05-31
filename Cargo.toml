@@ -6,11 +6,11 @@ authors = ["Jaroslaw Cichon <dev.iana.io> IanaIO Rust and WebAssembly Working Gr
 edition = "2021"
 license-file = "LICENSE.txt"
 readme = "README.md"
-documentation = "https://docs.iana.io/ianaio-timers"
-repository = "https://github.com/ianaio/ianaio-timers"
-homepage = "https://www.iana.io/rustwasm/"
+documentation = "https://docs.iana.io/rustwasm/timers"
+repository = "https://github.com/ianaio/timers"
+homepage = "https://rustwasm.iana.io/timers/"
 categories = ["api-bindings", "asynchronous", "wasm"]
-rust-version = "1.78.0"
+rust-version = "1.80"
 
 [package.metadata.docs.rs]
 features = ["futures"]
