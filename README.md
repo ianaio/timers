@@ -11,9 +11,9 @@
   <h3>
     <a href="https://docs.iana.io/api/ianaio-timers">API Docs</a>
     <span> | </span>
-    <a href="https://github.com/ianaio/documents-legal/blob/main/CONTRIBUTING.md">Contributing</a>
+    <a href="https://github.com/ianaio/timers/blob/main/CONTRIBUTING.md">Contributing</a>
     <span> | </span>
-    <a href="https://discordapp.com/channels/#/#">Chat</a>
+    <a href="https://discord.com/channels/1247475712001314857/1247475712001314860">Chat</a>
   </h3>
 
   <sub>Built with 🦀🕸 by <a href="https://dev.iana.io/">The IanaIO Rust and WebAssembly Working Group</a></sub>
