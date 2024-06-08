@@ -1,7 +1,7 @@
 [package]
 name = "ianaio-timers"
 description = "IanaIO crate for working with JavaScript timers"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jaroslaw Cichon <dev.iana.io> IanaIO Rust and WebAssembly Working Group"]
 edition = "2021"
 license-file = "LICENSE.txt"
